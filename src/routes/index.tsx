@@ -52,6 +52,6 @@ export const RouterGurad = (routes: RouteObjectNew[]) => {
 
   const Route = useRoutes(routes)
 
-  return Route
+  // return Route
   return bo ? Route : null
 }

@@ -1,16 +1,13 @@
 // import React from "react"
 import { Button } from "antd"
+import { useNavigate } from "react-router-dom"
 export default function Home() {
-  const layOut = () => {
-    sessionStorage.removeItem("token")
-    location.reload()
-  }
+  const navigate = useNavigate()
+
   return (
     <div>
-      <p>Home</p>
-      <Button type="primary" onClick={layOut}>
-        退出
-      </Button>
+      <div>Home</div>
+
     </div>
   )
 }

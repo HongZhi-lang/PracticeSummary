@@ -1,9 +1,9 @@
-import './App.css'
-import { RouterGurad } from './routes'
+import Layout from "./Layout"
+import { RouterGurad } from "./routes"
 import routes from "./routes/routes"
 
 function App() {
-  return <div>{RouterGurad(routes)}</div>
+  return <Layout>{RouterGurad(routes)}</Layout>
 }
 
 export default App

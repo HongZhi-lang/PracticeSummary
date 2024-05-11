@@ -1,6 +1,5 @@
 import { RouteObject } from "react-router-dom"
 import Home from "../pages/Home"
-import A from "../pages/Home/A"
 import NotFound from "../pages/NotFound"
 import Login from "../pages/Login"
 
@@ -15,7 +14,6 @@ const routes: RouteObjectNew[] = [
     element: <Home />,
     auth: true,
   },
-  { path: "/a", element: <A />, auth: true },
   { path: "/login", element: <Login />, auth: false },
   {
     path: "*",
